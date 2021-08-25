@@ -14,6 +14,8 @@ export type RootProps = {
   header: string;
   height: string;
   label: string;
+  onChange(...args: any[]): void;
   onPress(): void;
+  value: string;
   width: string;
 };
