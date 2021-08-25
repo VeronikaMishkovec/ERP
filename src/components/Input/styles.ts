@@ -14,11 +14,27 @@ export const styles = StyleSheet.create<StyleTypes>({
     borderWidth: 1,
     color: COLORS.WHITE,
     padding: PADDINGS.INPUT,
-    width: '100%',
+    flexGrow: 1,
   },
   label: {
     color: COLORS.WHITE,
     fontSize: FONT_SIZE.LABEL,
     paddingVertical: PADDINGS.ROOT,
+  },
+  passwordContainer: {
+    alignItems: 'center',
+    borderColor: COLORS.CAPER,
+    borderRadius: RADIUS.BORDERS,
+    borderStyle: 'solid',
+    borderWidth: 1,
+    flexDirection: 'row',
+    paddingRight: PADDINGS.INPUT,
+    width: '100%',
+  },
+  passwordInput: {
+    color: COLORS.WHITE,
+    flexGrow: 1,
+    paddingLeft: PADDINGS.INPUT,
+    paddingVertical: PADDINGS.INPUT,
   },
 });

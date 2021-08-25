@@ -1,16 +1,19 @@
-import React, { FC } from 'react';
-import { Text, TextInput, View } from 'react-native';
-import { styles } from './styles';
+import React, { FC, useState } from 'react';
+import { InputView } from './InputView';
+
 import { Props } from './types';
 
 export const Input: FC<Props> = ({ label, password }) => {
+  const [isVisible, setVisible] = useState<boolean>(false);
+
+  const handleVisible = () => setVisible(!isVisible);
+
   return (
-    <View style={styles.container}>
-      <Text style={styles.label}>{label}</Text>
-      <TextInput
-        secureTextEntry={password ? true : false}
-        style={styles.input}
-      />
-    </View>
+    <InputView
+      label={label}
+      onPress={handleVisible}
+      password={password}
+      visible={isVisible}
+    />
   );
 };

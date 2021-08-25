@@ -16,5 +16,6 @@ export const styles = StyleSheet.create<StyleTypes>({
   label: {
     color: COLORS.WHITE,
     fontSize: FONT_SIZE.BUTTON,
+    fontWeight: '700',
   },
 });
