@@ -38,7 +38,7 @@ export const Navigation = () => {
           <Stack.Screen
             name={SCREENS_NAMES.HOME}
             component={HomeScreen}
-            // options={{ headerShown: false }}
+            options={{ headerShown: false }}
           />
         ) : (
           <Stack.Screen

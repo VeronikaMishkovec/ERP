@@ -3,9 +3,11 @@ import { TextStyle, ViewStyle } from 'react-native';
 export type StylesTypes = {
   container: ViewStyle;
   header: TextStyle;
+  innerView: ViewStyle;
   input: ViewStyle;
   keyboardAvoiding: ViewStyle;
   label: TextStyle;
+  menuBox: ViewStyle;
   passwordContainer: ViewStyle;
   passwordInput: TextStyle;
 };
