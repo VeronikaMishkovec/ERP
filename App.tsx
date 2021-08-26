@@ -1,7 +1,7 @@
 import React from 'react';
 import { SafeAreaView, StatusBar, StyleSheet } from 'react-native';
 import { COLORS } from './src/constants';
-import { LoginScreen } from './src/screens';
+import { Navigation } from './src/navigation';
 
 const style = StyleSheet.create({
   root: {
@@ -14,7 +14,7 @@ const App = () => {
   return (
     <SafeAreaView style={style.root}>
       <StatusBar barStyle={'light-content'} />
-      <LoginScreen />
+      <Navigation />
     </SafeAreaView>
   );
 };

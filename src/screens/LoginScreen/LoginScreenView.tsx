@@ -17,8 +17,8 @@ export const LoginScreenView: FC<ViewProps> = ({
     <SafeAreaView style={styles.container}>
       <Header header={HEADERS.LOGIN} />
       <KeyboardAvoidingView
-        style={{ width: '100%' }}
-        behavior={Platform.OS === 'ios' ? 'padding' : 'height'}>
+        behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
+        style={styles.keyboardAvoiding}>
         <Input label={LABELS.EMAIL} onChange={onChangeEmail} value={email} />
         <Input
           label={LABELS.PASSWORD}
