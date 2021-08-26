@@ -6,6 +6,12 @@ export const LoginScreen: FC = () => {
   const [email, setEmail] = useState<string>('');
   const [password, setPassword] = useState<string>('');
 
+  // useEffect(() => {
+  //   auth()
+  //     .signOut()
+  //     .then(() => console.log('User signed out!'));
+  // }, []);
+
   const handelLogin = () =>
     auth()
       .createUserWithEmailAndPassword(email, password)
@@ -24,11 +30,16 @@ export const LoginScreen: FC = () => {
         console.error(error);
       });
 
+  const handelEmailChange = (userEmail: string) => setEmail(userEmail);
+
+  const handelPasswordChange = (userPassword: string) =>
+    setPassword(userPassword);
+
   return (
     <LoginScreenView
       email={email}
-      onChangeEmail={(userEmail: string) => setEmail(userEmail)}
-      onChangePassword={(userPassword: string) => setPassword(userPassword)}
+      onChangeEmail={handelEmailChange}
+      onChangePassword={handelPasswordChange}
       onPress={handelLogin}
       password={password}
     />

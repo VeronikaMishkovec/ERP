@@ -4,6 +4,7 @@ export type StylesTypes = {
   container: ViewStyle;
   header: TextStyle;
   input: ViewStyle;
+  keyboardAvoiding: ViewStyle;
   label: TextStyle;
   passwordContainer: ViewStyle;
   passwordInput: TextStyle;

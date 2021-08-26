@@ -4,7 +4,7 @@ import { InputView } from './InputView';
 import { Props } from './types';
 
 export const Input: FC<Props> = ({ label, onChange, password, value }) => {
-  const [isVisible, setVisible] = useState<boolean>(false);
+  const [isVisible, setVisible] = useState<boolean>(true);
 
   const handleVisible = () => setVisible(!isVisible);
 

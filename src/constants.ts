@@ -12,6 +12,12 @@ export enum FONT_SIZE {
   LABEL = 16,
 }
 
+// SCREENS NAMES
+export enum SCREENS_NAMES {
+  HOME = 'Home',
+  LOGIN = 'Login',
+}
+
 // SCREENS HEADERS
 export enum HEADERS {
   LOGIN = 'Log in',
