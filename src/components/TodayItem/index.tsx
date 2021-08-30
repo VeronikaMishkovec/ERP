@@ -9,10 +9,10 @@ export const TodayItem: FC = () => {
   const weekday = moment(new Date()).format('dddd');
 
   return (
-    <View>
-      <Text style={styles.label}>{month}</Text>
-      <Text style={styles.label}>{day}</Text>
-      <Text style={styles.label}>{weekday}</Text>
+    <View style={styles.innerView}>
+      <Text style={styles.month}>{month}</Text>
+      <Text style={styles.day}>{day}</Text>
+      <Text style={styles.weekday}>{weekday}</Text>
     </View>
   );
 };

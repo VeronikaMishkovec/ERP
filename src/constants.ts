@@ -1,15 +1,19 @@
 // COLORS
 export enum COLORS {
-  CAPER = '#ABBA88',
-  SWAMP = '#102020',
+  CHINA_IVORY = '#FCF3CA',
+  TOLOPEA = '#0e0639',
   WHITE = '#FFFFFF',
 }
 
 // FONT SIZE
 export enum FONT_SIZE {
   BUTTON = 18,
+  DAY = 40,
   HEADER = 32,
   LABEL = 16,
+  MONTH = 20,
+  SUBHEADER = 26,
+  WEEKDAY = 18,
 }
 
 // SCREENS NAMES
@@ -44,6 +48,7 @@ export enum RADIUS {
 // MARGINS
 export enum MARGINS {
   BUTTON = 50,
+  TIMER_CONTROLS = 20,
 }
 
 // SIZES

@@ -5,7 +5,7 @@ import { StyleTypes } from './types';
 export const styles = StyleSheet.create<StyleTypes>({
   container: {
     alignItems: 'center',
-    borderColor: COLORS.CAPER,
+    borderColor: COLORS.CHINA_IVORY,
     borderStyle: 'solid',
     borderWidth: 2,
     height: SIZES.BUTTON_HEIGHT,
