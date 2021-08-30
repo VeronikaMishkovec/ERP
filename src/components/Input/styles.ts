@@ -8,7 +8,7 @@ export const styles = StyleSheet.create<StyleTypes>({
     width: '100%',
   },
   input: {
-    borderColor: COLORS.CAPER,
+    borderColor: COLORS.CHINA_IVORY,
     borderRadius: RADIUS.BORDERS,
     borderStyle: 'solid',
     borderWidth: 1,
@@ -23,7 +23,7 @@ export const styles = StyleSheet.create<StyleTypes>({
   },
   passwordContainer: {
     alignItems: 'center',
-    borderColor: COLORS.CAPER,
+    borderColor: COLORS.CHINA_IVORY,
     borderRadius: RADIUS.BORDERS,
     borderStyle: 'solid',
     borderWidth: 1,

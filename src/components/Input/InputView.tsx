@@ -26,11 +26,15 @@ export const InputView: FC<ViewProps> = ({
           />
           {visible ? (
             <Pressable onPress={onPress}>
-              <Eye color={COLORS.CAPER} height={'24px'} width={'24px'} />
+              <Eye color={COLORS.CHINA_IVORY} height={'24px'} width={'24px'} />
             </Pressable>
           ) : (
             <Pressable onPress={onPress}>
-              <EyeOff color={COLORS.CAPER} height={'24px'} width={'24px'} />
+              <EyeOff
+                color={COLORS.CHINA_IVORY}
+                height={'24px'}
+                width={'24px'}
+              />
             </Pressable>
           )}
         </View>

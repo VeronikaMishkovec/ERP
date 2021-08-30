@@ -5,7 +5,7 @@ import { Navigation } from './src/navigation';
 
 const style = StyleSheet.create({
   root: {
-    backgroundColor: COLORS.SWAMP,
+    backgroundColor: COLORS.TOLOPEA,
     flex: 1,
   },
 });
