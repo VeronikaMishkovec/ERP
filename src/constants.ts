@@ -56,3 +56,9 @@ export enum SIZES {
   BUTTON_HEIGHT = 50,
   BUTTON_WIDTH = 160,
 }
+
+// BUTTON_TYPES
+export enum BUTTON_TYPES {
+  BUTTON = 'button',
+  SECONDARY = 'secondary',
+}

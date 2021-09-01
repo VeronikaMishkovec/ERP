@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import { COLORS, FONT_SIZE, MARGINS, SIZES } from '../../constants';
+import { COLORS, FONT_SIZE, MARGINS, PADDINGS, SIZES } from '../../constants';
 import { StyleTypes } from './types';
 
 export const styles = StyleSheet.create<StyleTypes>({
@@ -17,5 +17,12 @@ export const styles = StyleSheet.create<StyleTypes>({
     color: COLORS.WHITE,
     fontSize: FONT_SIZE.BUTTON,
     fontWeight: '700',
+  },
+  secondary: {
+    borderColor: COLORS.WHITE,
+    borderStyle: 'solid',
+    borderWidth: 2,
+    padding: PADDINGS.INPUT,
+    width: 170,
   },
 });

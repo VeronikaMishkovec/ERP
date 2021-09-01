@@ -11,6 +11,7 @@ export type StylesTypes = {
   passwordContainer: ViewStyle;
   passwordInput: TextStyle;
   pressableIcon: ViewStyle;
+  text: TextStyle;
 };
 
 export type RootProps = {
