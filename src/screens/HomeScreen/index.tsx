@@ -1,7 +1,12 @@
 import React, { FC } from 'react';
 import { View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { CounterItem, TimeItem, TodayItem } from '../../components';
+import {
+  CounterItem,
+  ProjectsBlock,
+  TimeItem,
+  TodayItem,
+} from '../../components';
 import { styles } from './styles';
 
 export const HomeScreen: FC = () => {
@@ -12,6 +17,7 @@ export const HomeScreen: FC = () => {
         <TimeItem />
       </View>
       <CounterItem />
+      <ProjectsBlock />
     </SafeAreaView>
   );
 };
