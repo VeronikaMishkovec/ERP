@@ -1,19 +1,15 @@
-import React, { FC } from 'react';
-import { Text, View } from 'react-native';
-import Modal from 'react-native-modal';
-
-type Props = {
-  visible: boolean;
-};
+import React, { FC, useState } from 'react';
+import { AddProjectView } from './AddProjectView';
+import { Props } from './types';
 
 export const AddProject: FC<Props> = ({ visible }) => {
+  const [name, setName] = useState('');
+
   return (
-    <View>
-      <Modal isVisible={visible}>
-        <View>
-          <Text>I am the modal content!</Text>
-        </View>
-      </Modal>
-    </View>
+    <AddProjectView
+      name={name}
+      onChangeName={(userName: string) => setName(userName)}
+      visible={visible}
+    />
   );
 };

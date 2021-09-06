@@ -25,17 +25,21 @@ export enum SCREENS_NAMES {
 // SCREENS HEADERS
 export enum HEADERS {
   LOGIN = 'Log in',
+  NEW_PROJECT = 'New project',
 }
 
 // BUTTON & INPUTS LABELS
 export enum LABELS {
   EMAIL = 'Email',
   LOGIN = 'Log in',
+  NAME = 'Name',
   PASSWORD = 'Password',
+  SAVE = 'Save',
 }
 
 // PADDINGS
 export enum PADDINGS {
+  INNER = 20,
   INPUT = 10,
   ROOT = 15,
 }
