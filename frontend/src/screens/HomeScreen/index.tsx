@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { View } from 'react-native';
+import LinearGradient from 'react-native-linear-gradient';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import {
   CounterItem,
@@ -7,15 +7,18 @@ import {
   TimeItem,
   TodayItem,
 } from '../../components';
+import { COLORS } from '../../constants';
 import { styles } from './styles';
 
 export const HomeScreen: FC = () => {
   return (
     <SafeAreaView style={styles.container}>
-      <View style={styles.menuBox}>
+      <LinearGradient
+        colors={[COLORS.DARK_PURPLE, COLORS.HONEY_FLOWER]}
+        style={styles.menuBox}>
         <TodayItem />
         <TimeItem />
-      </View>
+      </LinearGradient>
       <CounterItem />
       <ProjectsBlock />
     </SafeAreaView>

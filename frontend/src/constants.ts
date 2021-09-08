@@ -1,6 +1,13 @@
 // COLORS
 export enum COLORS {
+  AFFAIR = '#68417f',
+  BLACKCURRANT = '#2B0549',
   CHINA_IVORY = '#FCF3CA',
+  DARK_PURPLE = '#7b297d',
+  EAST_SIDE = '#b578cf',
+  HONEY_FLOWER = '#55376D',
+  HOPBUSH = '#C66AAB',
+  PINK_LACE = '#F2CFDA',
   TOLOPEA = '#0e0639',
   WHITE = '#FFFFFF',
 }
@@ -25,17 +32,21 @@ export enum SCREENS_NAMES {
 // SCREENS HEADERS
 export enum HEADERS {
   LOGIN = 'Log in',
+  NEW_PROJECT = 'New project',
 }
 
 // BUTTON & INPUTS LABELS
 export enum LABELS {
   EMAIL = 'Email',
   LOGIN = 'Log in',
+  NAME = 'Name',
   PASSWORD = 'Password',
+  SAVE = 'Save',
 }
 
 // PADDINGS
 export enum PADDINGS {
+  INNER = 20,
   INPUT = 10,
   ROOT = 15,
 }
@@ -43,6 +54,7 @@ export enum PADDINGS {
 // BORDER RADIUS
 export enum RADIUS {
   BORDERS = 5,
+  MENU = 15,
 }
 
 // MARGINS
