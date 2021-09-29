@@ -2,7 +2,7 @@ import React, { FC } from 'react';
 import LinearGradient from 'react-native-linear-gradient';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import {
-  CounterItem,
+  // CounterItem,
   ProjectsBlock,
   TimeItem,
   TodayItem,
@@ -19,7 +19,7 @@ export const HomeScreen: FC = () => {
         <TodayItem />
         <TimeItem />
       </LinearGradient>
-      <CounterItem />
+      {/* <CounterItem /> */}
       <ProjectsBlock />
     </SafeAreaView>
   );
