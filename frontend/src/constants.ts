@@ -5,9 +5,12 @@ export enum COLORS {
   CHINA_IVORY = '#FCF3CA',
   DARK_PURPLE = '#7b297d',
   EAST_SIDE = '#b578cf',
+  HOLLYWOOD_CERISE = '#e50185',
   HONEY_FLOWER = '#55376D',
   HOPBUSH = '#C66AAB',
   PINK_LACE = '#F2CFDA',
+  SHOKING_PINK = '#fe0ab7',
+  TIDAL = '#e9ff88',
   TOLOPEA = '#0e0639',
   WHITE = '#FFFFFF',
 }
